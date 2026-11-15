@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ПГТУ — Университет технологий и возможностей</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="utility">
+        
+        <div><a href="#applicants">Абитуриентам</a><a href="#students">Студентам</a><a href="#contacts">Сотрудникам</a></div>
+      </div>
+      <div class="brand-row">
+        <a class="brand" href="#">
+          <img src="images/лого.png" alt="Логотип ПГТУ">
+          <span><strong>ПГТУ</strong><small>Поволжский государственный<br>технологический университет</small><em>Знания. Технологии. Возможности.</em></span>
+        </a>
+        <div class="search-area">
+          <span>Информационный портал университета</span>
+          <form action="#" method="get" role="search"><label class="visually-hidden" for="site-search"></label><input id="site-search" name="q" type="search" placeholder="Поиск по сайту"><button type="submit" aria-label="Найти">⌕</button></form>
+        </div>
+      </div>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a class="active" href="#">Главная</a><a href="#about">О факультете</a><a href="#programs">Образование</a><a href="#science">Наука</a><a href="#students">Студенческая жизнь</a><a href="#news">Новости</a><a href="#contacts">Контакты</a>
+      </nav>
+    </header>
+
+    <main class="layout">
+      <div class="content">
+        <section class="hero" id="about">
+          <img src="images/корпус.png" alt="Современный университетский кампус">
+          <div class="hero-shade"></div>
+          <div class="hero-copy">
+            <span class="eyebrow">ФАКУЛЬТЕТ</span>
+            <h1>Факультет<br>информационных<br>технологий</h1>
+            <p>Современное образование<br>для будущего цифрового мира</p>
+            <a class="button" href="#programs">Узнать больше <b>→</b></a>
+          </div>
+          <ul class="hero-benefits">
+            <li><span>◎</span> Качественное<br>образование</li>
+            <li><span>⌘</span> Практические навыки</li>
+            <li><span>✦</span> Инновационные<br>проекты</li>
+            <li><span>↗</span> Развитие карьеры</li>
+          </ul>
+        </section>
+
+        <section class="news-section" id="news">
+          <div class="section-heading"><h2>Новости факультета</h2><a href="#news">Все новости <b>→</b></a></div>
+          <div class="news-grid">
+            <article class="news-card">
+              <img src="images/студенты.png" alt="Студенты работают над проектом">
+              <div class="news-body"><time datetime="2025-05-15">▣ 15 мая 2026</time><h3>Студенты факультета стали победителями олимпиады</h3><p>Команда факультета завоевала первое место на всероссийской олимпиаде по программированию.</p><a href="#news">Читать далее →</a></div>
+            </article>
+            <article class="news-card">
+              <img src="images/лекция.png" alt="Лекция в университете">
+              <div class="news-body"><time datetime="2025-05-12">▣ 12 мая 2026</time><h3>Открыта новая лаборатория IT-технологий</h3><p>На факультете начала работу современная лаборатория разработки и тестирования программного обеспечения.</p><a href="#news">Читать далее →</a></div>
+            </article>
+            <article class="news-card">
+              <img src="images/форум.png" alt="Участники научного форума">
+              <div class="news-body"><time datetime="2025-05-05">▣ 5 мая 2026</time><h3>Факультет на международном форуме</h3><p>Представители факультета приняли участие в международном научно-образовательном форуме.</p><a href="#news">Читать далее →</a></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="program-section" id="programs">
+          <div class="section-heading"><h2>Образовательные программы</h2><a href="#programs">Все программы <b>→</b></a></div>
+          <div class="program-grid">
+            <article class="program-card"><div class="program-icon">▣</div><h3>Бакалавриат</h3><p>Фундаментальная подготовка в области программирования и информационных технологий.</p><a href="#programs">Подробнее</a></article>
+            <article class="program-card"><div class="program-icon">⚙</div><h3>Магистратура</h3><p>Углублённое изучение современных технологий и исследовательская деятельность.</p><a href="#programs">Подробнее</a></article>
+            <article class="program-card"><div class="program-icon">▥</div><h3>Аспирантура</h3><p>Научные исследования и подготовка высококвалифицированных специалистов.</p><a href="#programs">Подробнее</a></article>
+            <article class="program-card"><div class="program-icon">▤</div><h3>Дополнительное образование</h3><p>Курсы повышения квалификации и профессиональная переподготовка.</p><a href="#programs">Подробнее</a></article>
+          </div>
+        </section>
+      </div>
+
+      <aside class="sidebar">
+        <section class="side-panel important">
+          <h2>Важная информация</h2>
+          <a href="#students"><span>▦</span> Расписание занятий</a>
+          <a id="applicants" href="#programs"><span>▣</span> Поступление 2026</a>
+          <a href="#students"><span>◇</span> Стипендии</a>
+          <a href="#students"><span>⌂</span> Общежитие</a>
+          <a href="#students"><span>▤</span> Документы</a>
+          <a href="#contacts"><span>ⓘ</span> Частые вопросы</a>
+        </section>
+        <section class="side-panel science" id="science">
+          <h2>Научная деятельность</h2>
+          <p>Студенты и преподаватели участвуют в научных конференциях, исследовательских проектах и разработке современных IT-решений.</p>
+          <a href="#news">Новости научной жизни →</a>
+        </section>
+        <section class="side-panel events" id="students">
+          <h2>Ближайшие мероприятия</h2>
+          <article class="event"><time datetime="2025-05-20"><b>20</b><small>МАЯ</small></time><div><h3>Научный семинар «Искусственный интеллект в образовании»</h3><p>Ауд. 301, 15:00</p></div></article>
+          <article class="event"><time datetime="2025-05-25"><b>25</b><small>МАЯ</small></time><div><h3>День открытых дверей</h3><p>Познакомьтесь с факультетом<br>Актовый зал, 12:00</p></div></article>
+          <article class="event"><time datetime="2025-05-27"><b>27</b><small>МАЯ</small></time><div><h3>Студенческая конференция «Технологии будущего»</h3><p>Ауд. 205, 10:00</p></div></article>
+          <a class="all-events" href="#students">Все мероприятия →</a>
+        </section>
+        <section class="side-panel contacts" id="contacts">
+          <h2>Контакты факультета</h2>
+          <p><b>⌖</b> г. Йошкар-Ола, ул. пл.Ленина, 3<br>Учебный корпус №1, ауд. 301</p>
+          <p><b>☎</b> +7 (8362) 68-68-70</p>
+          <p><b>✉</b> info@volgatech.ru</p>
+          <p><b>◷</b> Пн–Пт: 9:00–18:00</p>
+          <div class="map-placeholder"><span>МЕСТОПОЛОЖЕНИЕ УНИВЕРСИТЕТА</span><b>●</b></div>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-brand"><img src="images/лого.png" alt=""><div><strong>ПГТУ</strong><small>Поволжский государственный<br>технологический университет</small><p>Факультет информационных технологий</p><div class="social"><a href="#contacts">ВК</a><a href="#contacts">тг</a><a href="#contacts">▶</a><a href="#contacts">●</a></div></div></div>
+        <div><h3>Разделы</h3><a href="#about">О факультете</a><a href="#programs">Образование</a><a href="#science">Наука</a><a href="#students">Студенческая жизнь</a><a href="#news">Новости</a><a href="#contacts">Контакты</a></div>
+        <div><h3>Полезные ссылки</h3><a href="#applicants">Поступление</a><a href="#students">Расписание</a><a href="#students">Электронная библиотека</a><a href="#students">Документы</a><a href="#contacts">Карта сайта</a></div>
+        <blockquote>«Технологии меняют мир,<br>а мы готовим тех, кто его создаёт»</blockquote>
+      </div>
+      <div class="footer-bottom"><span>© 2026 Факультет информационных технологий ПГТУ. Все права защищены.</span><a href="#contacts">Политика конфиденциальности</a><a href="#contacts">Пользовательское соглашение</a><a href="#">Версия для слабовидящих</a></div>
+    </footer>
+  </div>
+</body>
+</html>
+
+
